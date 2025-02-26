@@ -1,11 +1,10 @@
 import Header from "../components/common/Header"
-
-const ProductsPage = () => {
+const UsersPage = () => {
   return (
     <div className='flex-1 overflow-auto relative z-10'>
-        <Header title="Products" />
+        <Header title="Users" />
     </div>
   )
 }
 
-export default ProductsPage
+export default UsersPage
