@@ -41,9 +41,12 @@ const UserActivityHeatmap = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="pv" stackId="a" fill="#8884d8" />
-          <Bar dataKey="amt" stackId="a" fill="#82ca9d" />
-          <Bar dataKey="uv" fill="#ffc658" />
+          <Bar dataKey="0-4" stackId="a" fill="#6366F1" />
+          <Bar dataKey="4-8" stackId="a" fill="#8B5CF6" />
+          <Bar dataKey="8-12" stackId="a" fill="#EC4899" />
+          <Bar dataKey="12-16" stackId="a" fill="#10B981" />
+          <Bar dataKey="16-20" stackId="a" fill="#F59E0B" />
+          <Bar dataKey="20-24" stackId="a" fill="#3B82F6" />
         </BarChart>
       </ResponsiveContainer>
           
