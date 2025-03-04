@@ -3,6 +3,8 @@ import Header from "../components/common/Header"
 import StatCard from "../components/common/StatCard"
 import DailySalesTrend from "../components/sales/DailySalesTrend"
 import { motion } from "framer-motion"
+import SalesOverviewChart from "../components/sales/SalesOverviewChart"
+import SalesByCategoryChart from "../components/sales/SalesByCategoryChart"
 
 const SalesPage = () => {
   return (
@@ -22,9 +24,11 @@ const SalesPage = () => {
     <StatCard name='Conversion Rate' icon={TrendingUp} value='5.67 %' color='#EC4899' />
     <StatCard name='Sales Growth' icon={CreditCard} value='12.5 %' color='#10B981' />
 </motion.div>
+<SalesOverviewChart/>
 
 {/* Charts */}
 <div className="grid grid-cols-1  lg:grid-cols-2 gap-8">
+  <SalesByCategoryChart/>
   <DailySalesTrend/>
 
 </div>
