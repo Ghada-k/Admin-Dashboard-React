@@ -46,7 +46,7 @@ const UserDemographicsChart = () => {
                 }}
                 itemStyle={{ color: "#E5E7EB" }}
              />
-              <Legend/>
+            <Legend/>
           </PieChart>
         </ResponsiveContainer>
 
